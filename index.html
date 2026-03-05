@@ -1,24 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Portfolio</title>
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>Xin chào </h1>
-<h2>Tôi là Tuntt</h2>
+<div class="container">
 
-<p>Tôi là lập trình viên.</p>
+    <!-- LEFT SIDE -->
+    <div class="left">
 
-<h3>Kỹ năng</h3>
-<ul>
-    <li>Java</li>
-    <li>C#</li>
-    <li>SQL</li>
-</ul>
+        <h1 class="name">Tuntt</h1>
 
-<h3>Dự án</h3>
-<p>Hệ thống quản lý cửa hàng sách</p>
+        <img src="avatar.jpg" class="avatar">
+
+        <div class="links">
+            <a href="#">Resume</a> |
+            <a href="#">LinkedIn</a> |
+            <a href="https://github.com/">GitHub</a>
+        </div>
+
+        <p class="about">
+        Tôi là sinh viên IT.  
+        Quan tâm đến lập trình, phát triển phần mềm và AI.
+        </p>
+
+        <p class="about">
+        Hiện tại tôi đang làm các project như:
+        <br>• Hệ thống quản lý cửa hàng sách  
+        <br>• Web PHP + MySQL  
+        </p>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+
+        <h1>Portfolio</h1>
+        <hr>
+
+        <div class="project">
+
+            <h2>Book Store Management</h2>
+
+            <p>
+            Hệ thống quản lý cửa hàng sách bằng Java Swing  
+            gồm quản lý nhân viên, sách, đơn hàng.
+            </p>
+
+            <a class="btn" href="#">View on GitHub</a>
+
+        </div>
+
+        <div class="project">
+
+            <h2>Website PHP</h2>
+
+            <p>
+            Website bán sách sử dụng PHP + MySQL.
+            </p>
+
+            <a class="btn" href="#">View on GitHub</a>
+
+        </div>
+
+    </div>
+
+</div>
 
 </body>
 </html>
