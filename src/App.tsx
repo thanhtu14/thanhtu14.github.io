@@ -127,7 +127,7 @@ const Hero = () => {
         >
           <div className="aspect-square rounded-3xl overflow-hidden bg-neutral-200 shadow-2xl">
             <img 
-              src="https://picsum.photos/seed/profile/800/800" 
+              src="avt_SGU.jpg" 
               alt="Profile" 
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"
@@ -152,11 +152,6 @@ const Skills = () => {
           <div>
             <h2 className="section-title mb-2">Trình độ chuyên môn</h2>
             <p className="text-neutral-500">Những công nghệ tôi sử dụng để hiện thực hóa ý tưởng.</p>
-          </div>
-          <div className="flex gap-2">
-            <div className="px-4 py-2 bg-white rounded-lg border border-neutral-200 text-sm font-mono flex items-center gap-2">
-              <Terminal size={14} /> stack_info.json
-            </div>
           </div>
         </div>
 
